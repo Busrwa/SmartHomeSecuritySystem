@@ -2,7 +2,7 @@ from flask import Flask, jsonify, request, render_template
 
 app = Flask(__name__)
 
-# Temporary data variables
+# Temporary data variables.
 current_distance_cm = None
 current_distance_inches = None
 
