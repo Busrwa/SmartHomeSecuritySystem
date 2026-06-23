@@ -29,4 +29,4 @@ def data():
     return jsonify({'cm': current_distance_cm, 'inches': current_distance_inches})
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0')
+    app.run(debug=False, host='0.0.0.0')
