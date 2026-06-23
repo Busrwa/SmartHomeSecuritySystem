@@ -4,9 +4,9 @@
 #include <HTTPClient.h> 
 
 
-const char* ssid = "Busra's Phone";  // Wi-Fi SSID
-const char* password = "123456789";  
-const char* flask_server_ip = "http://example/";  
+const char* ssid = "YOUR_WIFI_SSID";
+const char* password = "YOUR_WIFI_PASSWORD";
+const char* flask_server_ip = "http://YOUR_FLASK_SERVER_IP:5000";
 
 
 // HC-SR04 Ultrasonic Sensor
